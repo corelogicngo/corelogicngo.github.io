@@ -95,7 +95,7 @@ export default function EventsPage() {
             <div className="grid lg:grid-cols-2">
               <div className="order-2 lg:order-1 relative h-96 lg:h-auto">
                 <img
-                  src="https://images.pexels.com/photos/8500371/pexels-photo-8500371.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/IMT 2024, begins(3).jpg"
                   alt="IMT 2025"
                   className="w-full h-full object-cover"
                 />

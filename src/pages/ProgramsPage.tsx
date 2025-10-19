@@ -92,7 +92,7 @@ export default function ProgramsPage() {
               </div>
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/8500371/pexels-photo-8500371.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/IMT 2024, begins(3).jpg"
                   alt="Mathematics Tournament"
                   className="rounded-2xl shadow-2xl"
                 />
@@ -171,7 +171,7 @@ export default function ProgramsPage() {
               </div>
               <div className="relative h-64 lg:h-auto">
                 <img
-                  src="https://images.pexels.com/photos/8500421/pexels-photo-8500421.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/@students.JPG"
                   alt="Join Our Programs"
                   className="w-full h-full object-cover"
                 />

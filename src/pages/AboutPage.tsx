@@ -40,7 +40,7 @@ export default function AboutPage() {
             </div>
             <div>
               <img
-                src="https://images.pexels.com/photos/8500428/pexels-photo-8500428.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/@students.JPG"
                 alt="Foundation Impact"
                 className="rounded-2xl shadow-2xl"
               />
@@ -89,9 +89,17 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-2 gap-12">
               {[founders.founder, founders.coFounder].map((founder, idx) => (
                 <div key={idx} className="text-center">
-                  <div className="w-40 h-40 mx-auto mb-6 rounded-full bg-gradient-to-br from-[hsl(220,66%,14%)] to-[hsl(6,77%,28%)] flex items-center justify-center">
-                    <Users className="w-20 h-20 text-white" />
-                  </div>
+                  {idx === 1 ? (
+                    <img
+                      src="/@NosaIgiehon.JPG"
+                      alt={founder.name}
+                      className="w-40 h-40 mx-auto mb-6 rounded-full object-cover shadow-lg"
+                    />
+                  ) : (
+                    <div className="w-40 h-40 mx-auto mb-6 rounded-full bg-gradient-to-br from-[hsl(220,66%,14%)] to-[hsl(6,77%,28%)] flex items-center justify-center">
+                      <Users className="w-20 h-20 text-white" />
+                    </div>
+                  )}
                   <h3 className="text-2xl font-bold text-[hsl(220,66%,14%)] mb-2">
                     {founder.name}
                   </h3>

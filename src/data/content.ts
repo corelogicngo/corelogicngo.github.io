@@ -36,7 +36,7 @@ export const pastEvents = [
     title: 'IMT 2024: 3rd Annual Tournament',
     date: 'November 30, 2024',
     venue: 'Edo Innovation Hub, Benin City',
-    imageUrl: 'https://images.pexels.com/photos/8500371/pexels-photo-8500371.jpeg',
+    imageUrl: '/IMT 2024, begins(3).jpg',
     description: 'The 3rd Annual tournament saw record participation with over 200 schools competing.',
     highlights: [
       'Record 200+ schools participated',
@@ -50,7 +50,7 @@ export const pastEvents = [
     title: 'IMT 2023: 2nd Annual Tournament',
     date: 'December 2, 2023',
     venue: 'University of Benin, Ugbowo Campus',
-    imageUrl: 'https://images.pexels.com/photos/8500428/pexels-photo-8500428.jpeg',
+    imageUrl: '/@students.JPG',
     description: 'Building on the success of our inaugural event, IMT 2023 doubled participation.',
     highlights: [
       '150+ schools participated',
@@ -64,7 +64,7 @@ export const pastEvents = [
     title: 'IMT 2022: Inaugural Tournament',
     date: 'November 26, 2022',
     venue: 'Igiehon Foundation Centre, Benin City',
-    imageUrl: 'https://images.pexels.com/photos/8500421/pexels-photo-8500421.jpeg',
+    imageUrl: '/@@1@.JPG',
     description: 'The birth of a movement - our first ever mathematics tournament launched with great success.',
     highlights: [
       'Inaugural event with 80+ schools',

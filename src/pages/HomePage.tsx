@@ -35,7 +35,7 @@ export default function HomePage() {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/8500371/pexels-photo-8500371.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/@@1@.JPG"
                 alt="Students in mathematics competition"
                 className="rounded-2xl shadow-2xl"
               />
@@ -124,7 +124,7 @@ export default function HomePage() {
 
               <div className="relative h-64 lg:h-auto">
                 <img
-                  src="https://images.pexels.com/photos/8500428/pexels-photo-8500428.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/@students.JPG"
                   alt="Mathematics Tournament"
                   className="w-full h-full object-cover"
                 />
